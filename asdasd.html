@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-COMPATIBLE" content="ie=edge">
+        <title>Get to Know</title>
+    </head>
+    <link rel="stylesheet" href="html.css">
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#section1">HOME</a></li> 
+                <li><a href="#section2">ABOUT</a></li>
+                <li><a href="#section3">HOBBY</a></li>
+            </ul>
+        </nav>
+        <header>
+            <style>
+                header{
+                    background-color: darkgray;
+                    margin: 5px;
+                }
+                .firstname{
+                    text-align: center;
+                    background-color: black;
+                    letter-spacing: 0.5cm;
+                    font-display: white;
+                    color: tan;
+                    box-shadow: 5px 5PX 10px rgb(198, 128, 42);
+                }
+                .introduction{
+                    text-align: center;
+                    color: antiquewhite;
+                    margin: 5px;
+                    width: 300px;
+                    margin-left: 460px;
+                    
+                }
+                h3{
+                    text-align: center;
+                    background-color: black;
+                    color: antiquewhite;
+                    font-family: 'Times New Roman';
+                    letter-spacing: 0.2cm;
+                    box-shadow: 5px 5PX 10px rgb(198, 128, 42);
+            
+                }
+                nav ul{
+                    cursor: pointer;
+                    text-align: left;
+                    background-color: black;
+                    padding: 20px;
+                    justify-content: space-between;
+                    word-spacing: 0.5cm;
+                    overflow: hidden;
+                    
+                }
+                nav li{
+                    display: inline-block;
+                    padding: 15px;
+                    transition: all 0.5s ease-in-out;
+                }
+            nav li:hover{
+                background-color: darkgray;
+                transform: scale(1.1);
+                transition: opacity 1s;
+            }
+            nav li: :active{
+                box-shadow: 3px 3px 5px black;
+            }
+            nav a{
+                display: block;
+                color: antiquewhite;
+                text-decoration: none;
+                transition: 0.5s;
+            }
+            .sunset{
+            width: 33cm;
+            height: 15cm;
+            }
+            body{
+                background-color: darkgray
+            }
+            .HOME{
+                font-family: Arial;
+                background-color: darkgray;
+                border: 2cm;
+                border-color: bisque;
+                color: antiquewhite;
+                text-align: center;
+            }
+            .ABOUT{
+                color: antiquewhite;
+                text-align: center;
+            }
+            .HOBBYP{
+                color: antiquewhite;
+                text-align: center;
+                align-items: center;
+                
+            }
+            .ME{
+                width: 8cm;
+                height: 5cm;
+                object-position: center;
+                border-width: 2px;
+                border-style: solid;
+                border-color: black;
+                margin-left: 460px;
+                box-shadow: 5px 5px 10px antiquewhite;
+                
+            }
+            .ABOUTpic{
+                width: 8cm;
+                height: 5cm;
+                border: 2px;
+                border-style: solid;
+                border-color: black;
+                background-image: linear-gradient(tan, antiquewhite);
+                animation: about-img-animation 1s ease-in-out;
+                transform: translateX(150%);
+                flex: 1 1 400px;
+                box-shadow: 5px 5px 10px antiquewhite;
+            }
+            .BIKE{ 
+                width: 8cm;
+                height: 5cm;
+                border-style: solid;
+                border-color: black;
+                margin-left: 460px;
+                box-shadow: 5px 5px 10px antiquewhite;
+            }
+            .home div{
+                display: inline-block;
+                width: 300px;
+                background-color: red;
+            }
+            .about div{
+                display: inline-block;
+                width: 500px;
+            }
+            .hobby div{
+                display: inline-block;
+                width: 500px;
+            }
+            .HOMEHEAD{
+                text-align: center;
+                align-items: center;
+                color: tan;
+                background-color: black;
+                box-shadow: 5px 5PX 10px black;
+                text-shadow: 4px 4px 10px darkgray;
+                
+            }
+            .ABOUTHEAD{
+                text-align: center;
+                align-items: center;
+                color: tan;
+                background-color: black;
+                box-shadow: 5px 5PX 10px black;
+                text-shadow: 4px 4px 10px darkgray;
+            }
+            .HOBBYHEAD{
+                text-align: center;
+                align-items: center;
+                color: tan;
+                background-color: black;
+                box-shadow: 5px 5PX 10px black;
+                text-shadow: 4px 4px 10px darkgray;
+            }
+            
+
+               
+            
+                
+
+            </style>
+            <h1 class="firstname">MY FIRST WEBSITE</h1>
+            <P class="introduction">Computer 2-1
+                "sunsets are like God's paintings in the sky"
+            </P>
+            <img class="sunset" src="IMG_2056.JPG" alt="SUNSET">
+        </header>
+       
+        <div class="home div">
+            <section1 class="section1" id="section1">
+                <h1 class="HOMEHEAD">HOME</h1>
+                <p class="HOME">Hi! I'm Christian Q. Robles. Know me more!</p>
+            </section1>
+            <img class="ME" src="me.jpg">
+        </div>
+        
+        <div class="about div">
+            <section2 class="section2:" id="section2">
+                <h1 class="ABOUTHEAD">ABOUT</h1>
+            <p class="ABOUT">I'm Chistian Q. Robles, 19yrs old, i lived in lawang bato, valenzuela city. 
+                currently studying in st.louis college of valenzuela as 2nd yr 
+                Business administration major in financial management. also, i work at 
+                McDonald's Malanday for almost 8months and counting</p>
+                <img class="ABOUTpic" src="student.jpg">
+            </section2>
+        </div>
+        <div class="hobby div">
+            <section3 class="section3" id="section3">
+                <h1 class="HOBBYHEAD">HOBBY</h1>
+                <p class="HOBBYP">Now, I only ride my bike once in a while 
+                    because of my current schedule, 
+                    when I don't have school, I have 
+                    school at mcdo, when I'm not at mcdo, 
+                    I'm at school, vice versa.</P>
+                    <img class="BIKE" src="bike.jpg">
+            </section3>
+        </div>
+        <H3>Thank you</H3>
+    </body>
+</html>
